@@ -1,0 +1,20 @@
+{
+  "name": "marathon-skills",
+  "version": "1.0.0",
+  "description": "Simple Electron app for interaction with MySQL",
+  "main": "main.js",
+  "dependencies": {
+    "electron-prebuilt": "^1.4.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/elil_/marathon-skills.git"
+  },
+  "author": "elil_",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/elil_/marathon-skills#readme"
+}
