@@ -11,12 +11,81 @@
 	<p class="header-info">Москва, Россия<br>среда 21 октября 2018</p>
 </header>
 <main>
-	<div class="btn-wrapper btn-wrapper--index">
-		<button class="btn btn--app btn--index">Я хочу стать бегуном</button>
-		<button class="btn btn--app btn--index" id="btn_sponsor">Я хочу стать спонсором</button>
-		<button class="btn btn--app btn--index">Я хочу узнать больше о событии</button>
-	</div>
-	<button class="btn btn--login">Login</button>
+	<section class="page page--index">
+		<div class="btn-wrapper btn-wrapper--index">
+			<button class="btn btn--app btn--index">Я хочу стать бегуном</button>
+			<button class="btn btn--app btn--index" id="btn_sponsor">Я хочу стать спонсором</button>
+			<button class="btn btn--app btn--index">Я хочу узнать больше о событии</button>
+		</div>
+		<button class="btn btn--login">Login</button>
+	</section>
+	<section class="page page--login" style="display: none">
+		<h2>Форма авторизации</h2>
+		<p>Пожалуйста, авторизуйтесь в системе, используя ваш адрес электронной почты и пароль.</p>
+		<form method="post">
+			<label class="label" for="input_mail">Email:</label>
+			<input class="input input--email" type="email" id="input_mail">
+			<label class="label" for="input_password">Password:</label>
+			<input class="input inout--password" type="password" id="input_password">
+			<button class="btn btn--login" id="btn_login" type="submit">Login</button>
+			<button class="btn btn--cancel" id="btn" type="reset">Cancel</button>
+		</form>
+	</section>
+	<section class="page page--reg-runner" style="display: none">
+		<div class="btn-wrapper">
+			<button class="btn btn--app">Я участвовал ранее</button>
+			<button class="btn btn--app">Я новый участник</button>
+		</div>
+		<button class="btn btn--login">Login</button>
+	</section>
+	<section class="page page--sponsor" style="display: none">
+		<h2>Спонсор бегуна</h2>
+		<p>Пожалуйста выберите бегуна, которого вы хотели бы спонсировать и сумму, котороую вы хотели бы спонсировать. Спасибо за вашу поддержку бегунов и их благотворительных учреждений</p>
+		<form method="post">
+			<fieldset class="field field--sponsor">
+				<legend class="field-title">Информация о спонсоре</legend>
+				<label class="label label--txt" for="txt_fullName">Ваше имя:</label>
+				<input class="input input--txt" type="text" id="txt_fullName" name="sponsor_full_name" placeholder="Ваше имя">
+				<label class="label label--txt" for="select_runner">Бегун:</label>
+				<select class="select" id="select_runner" name="runner">
+					<option value="204" selected>Иван Прудов - 204 (Russia)</option>
+				</select>
+				<label class="label label--txt" for="txt_cardKeeper">Карта</label>
+				<input class="input input--txt" type="text" id="txt_cardKeeper" name="card_keeper" placeholder="Владелец карты">
+				<label>Номер карты#:</label>
+				<input class="input input--txt" type="number" id="txt_cardNumber" name="card_name" placeholder="1234 1234 1234 1234">
+				<label class="label label--txt">
+					Срок действия:
+					<input class="input input--txt input--month" type="number" id="txt_expMonth" name="expiration_month" placeholder="01">
+					<input class="input input--txt input--year" type="number" id="txt_expYear" name="expiration_year" placeholder="2019">
+				</label>
+				<label class="label label--txt">CVC:</label>
+				<input class="input input--txt" type="number" id="txt_cvc" name="cvc" placeholder="123">
+			</fieldset>
+			<fieldset class="field field--fund">
+				<legend class="field-title">Благотворительность</legend>
+				<p>Фонд Кошек</p>
+			</fieldset>
+			<fieldset class="field field--donation">
+				<legend class="field-title">Сумма пожерствования</legend>
+				<label class="label label--donat" for="donat_counter" id="donation_amount">$</label>
+				<input class="input input--txt input--counter" type="number" id="donat_counter">
+			</fieldset>
+			<fieldset class="field field--btns">
+				<button class="btn btn--pay" type="submit" id="btn_pay">Заплатить</button>
+				<button class="btn btn--reset" type="reset" id="btn_reset">Отмена</button>
+			</fieldset>
+		</form>
+	</section>
+	<section class="page page--more-info" style="display: none">
+		<h2>Форма авторизации</h2>
+		<div class="btn-wrapper">
+			<button class="btn btn--app">Marathon Skills 2018</button>
+			<button class="btn btn--app">Насколько долгий марафон</button>
+			<button class="btn btn--app">Предыдущие результаты</button>
+			<button class="btn btn--app">Список благо</button>
+		</div>
+	</section>
 </main>
 <footer>
 	<p>18 дней 8 часов и 17 минут до старта марафона!</p>
