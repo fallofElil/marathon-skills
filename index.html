@@ -133,7 +133,7 @@
 			</fieldset>
 		</form>
 	</section>
-	<section class="page page--about-marathon-skills about-marathon">
+	<section class="page page--about-marathon-skills about-marathon" style="display: none">
 		<h2>Информация о Marathon Skills 2018</h2>
 		<article class="about-marathon__map-gallery">
 			<a>Карта марафона <span>(Нажмите чтобы открыть интерактивную карту)</span></a>
@@ -152,6 +152,32 @@
 			<p>Информация о Marathon Skills 2018 пойдёт сюда. информация может покрыть расположение,
 				время, расстояние, рекордные времена, достопримечательности и т.д.</p>
 		</article>
+	</section>
+	<section class="page page--how-long" style="display: none">
+		<h2>Насколько долгий марафон</h2>
+		<h3>Имя выбранного пункта</h3>
+		<figure>
+			<img class="pic" src="#">
+			<figcaption>Информация о скорости выбранного пункта и сколько времени это взяло бы,
+				чтобы закончить марафон.</figcaption>
+		</figure>
+		<ul class="tabs" role="tablist">
+			<li>
+				<input type="radio" name="tabs" id="tab_speed" checked>
+				<label for="tab_speed"
+				       role="tab"
+				       aria-selected="true"
+				       aria-controls="panel_speed"
+				       tabindex="0">Скорость</label>
+				<div class="tab-content"
+					 id="tab_content_speed"
+					 role="tabpanel"
+					 aria-labelledby="description"
+					 aria-hidden="false">
+					<a>Название 1</a>
+				</div>
+			</li>
+		</ul>
 	</section>
 </main>
 <footer>
