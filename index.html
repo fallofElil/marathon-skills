@@ -31,7 +31,7 @@
 			<button class="btn btn--cancel" id="btn" type="reset">Cancel</button>
 		</form>
 	</section>
-	<section class="page page--reg-runner" style="display: none">
+	<section class="page page--runner" style="display: none">
 		<div class="btn-wrapper">
 			<button class="btn btn--app">Я участвовал ранее</button>
 			<button class="btn btn--app">Я новый участник</button>
@@ -85,6 +85,53 @@
 			<button class="btn btn--app">Предыдущие результаты</button>
 			<button class="btn btn--app">Список благо</button>
 		</div>
+	</section>
+	<section class="page page--runner-select" style="display: none">
+		<div class="btn-wrapper btn-wrapper--run-select">
+			<button class="btn btn--app btn--run-select">Я участвовал ранее</button>
+			<button class="btn btn--app btn--run-select">Я новый участник</button>
+		</div>
+		<button class="btn btn--login">Login</button>
+	</section>
+	<section class="page page--reg-runner" style="display: none">
+		<h2>Регистрация бегуна</h2>
+		<p>Пожалуйста заполните всю информацию, чтобы зарегистрироваться в качестве бегуна</p>
+		<form method="post">
+			<fieldset class="form-field form-field--reg-cl-left">
+				<label class="label label--txt" for="runner_email">Email:</label>
+				<input class="input input--txt" type="email" id="runner_email" name="runner_email">
+				<label class="label label--txt" for="runner_pswd">Пароль:</label>
+				<input class="input input--txt" type="password" id="runner_pswd" name="runner_pswd">
+				<label class="label label--txt" for="runner_rep_pswd">Пвторите пароль:</label>
+				<input class="input input--txt" type="password" id="runner_rep_pswd" name="runner_rep_pswd">
+				<label class="label label--txt" for="runner_name">Имя:</label>
+				<input class="input input--txt" type="text" id="runner_name" name="runner_name">
+				<label class="label label--txt" for="runner_surname">Фамилия:</label>
+				<input class="input input--txt" type="text" id="runner_surname" name="runner_surname">
+			</fieldset>
+			<fieldset class="form-field form-field--reg-cl-right">
+				<label class="label" for="runner_gender">Пол:</label>
+				<select class="input input--select" id="runner_gender" name="runner_gender">
+					<option value="male">Мужской</option>
+					<option value="female">Женский</option>
+				</select>
+				<label class="label" for="runner_dob">Дата рождения:</label>
+				<input class="input input--date" type="date" id="runner_dob" name="runner_date_of_birth">
+				<label class="label" for="runner_country">Старана:</label>
+				<select class="input input--select" id="runner_country" name="runner_country">
+					<option value="Russia">Russia</option>
+					<option value="Ukraine">Ukraine</option>
+					<option value="Belarus">Belarus</option>
+					<option value="Kazakhstan">Kazakhstan</option>
+					<option value="Georgia">Georgia</option>
+					<option value="USA">USA</option>
+				</select>
+			</fieldset>
+			<fieldset class="form-field form-field--reg-cl-middle">
+				<button class="btn btn--submit" type="submit" id="runner_btn_reg">Регистрация</button>
+				<button class="btn btn--reset" type="reset" id="runner_btn_reset">Отмена</button>
+			</fieldset>
+		</form>
 	</section>
 </main>
 <footer>
