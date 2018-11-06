@@ -6,10 +6,20 @@ body {
 }
 
 header {
+	position: relative;
 	min-height: 30%;
 	background-color: #003b46;
 	color: #c4dfe6;
 	text-align: center;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #003b46;
+	text-align: center;
+	color: #c4dfe6;
 }
 
 .app-title {
@@ -45,6 +55,21 @@ header {
 	cursor: pointer;
 }
 
+.btn--active {
+	display: block;
+}
+
+.btn--hidden {
+	display: none;
+}
+
+.btn--back {
+	position: absolute;
+	top: 10px;
+	left: 3vw;
+	padding: 5px 15px;
+}
+
 .btn--app {
 	width: 400px;
 	height: 60px;
@@ -63,13 +88,4 @@ header {
 	bottom: 10vh;
 	right: 2vw;
 	padding: 8px 20px;
-}
-
-footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	background-color: #003b46;
-	text-align: center;
-	color: #c4dfe6;
 }

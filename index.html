@@ -9,17 +9,18 @@
 <header>
 	<h1 class="app-title">marathon skills 2018</h1>
 	<p class="header-info">Москва, Россия<br>среда 21 октября 2018</p>
+	<button class="btn btn--back" id="btn_back" type="button">Назад</button>
 </header>
 <main>
-	<section class="page page--index">
+	<section class="page page--index" id="page_index">
 		<div class="btn-wrapper btn-wrapper--index">
-			<button class="btn btn--app btn--index">Я хочу стать бегуном</button>
+			<button class="btn btn--app btn--index" id="btn_runner">Я хочу стать бегуном</button>
 			<button class="btn btn--app btn--index" id="btn_sponsor">Я хочу стать спонсором</button>
-			<button class="btn btn--app btn--index">Я хочу узнать больше о событии</button>
+			<button class="btn btn--app btn--index" id="btn_info">Я хочу узнать больше о событии</button>
 		</div>
-		<button class="btn btn--login">Login</button>
+		<button class="btn btn--login login">Login</button>
 	</section>
-	<section class="page page--login" style="display: none">
+	<section class="page page--login" id="page_login" style="display: none">
 		<h2>Форма авторизации</h2>
 		<p>Пожалуйста, авторизуйтесь в системе, используя ваш адрес электронной почты и пароль.</p>
 		<form method="post">
@@ -31,14 +32,14 @@
 			<button class="btn btn--cancel" id="btn" type="reset">Cancel</button>
 		</form>
 	</section>
-	<section class="page page--runner" style="display: none">
+	<section class="page page--runner" id="page_runner" style="display: none">
 		<div class="btn-wrapper">
-			<button class="btn btn--app">Я участвовал ранее</button>
+			<button class="btn btn--app login">Я участвовал ранее</button>
 			<button class="btn btn--app">Я новый участник</button>
 		</div>
-		<button class="btn btn--login">Login</button>
+		<button class="btn btn--login login">Login</button>
 	</section>
-	<section class="page page--sponsor" style="display: none">
+	<section class="page page--sponsor" id="page_sponsor" style="display: none">
 		<h2>Спонсор бегуна</h2>
 		<p>Пожалуйста выберите бегуна, которого вы хотели бы спонсировать и сумму, котороую вы хотели бы спонсировать. Спасибо за вашу поддержку бегунов и их благотворительных учреждений</p>
 		<form method="post">
@@ -77,7 +78,7 @@
 			</fieldset>
 		</form>
 	</section>
-	<section class="page page--more-info" style="display: none">
+	<section class="page page--more-info" id="page_more_info" style="display: none">
 		<h2>Форма авторизации</h2>
 		<div class="btn-wrapper">
 			<button class="btn btn--app">Marathon Skills 2018</button>
@@ -86,14 +87,14 @@
 			<button class="btn btn--app">Список благотворительных организаций</button>
 		</div>
 	</section>
-	<section class="page page--runner-select" style="display: none">
+	<section class="page page--runner-select" id="page_runner_select" style="display: none">
 		<div class="btn-wrapper btn-wrapper--run-select">
 			<button class="btn btn--app btn--run-select">Я участвовал ранее</button>
 			<button class="btn btn--app btn--run-select">Я новый участник</button>
 		</div>
 		<button class="btn btn--login">Login</button>
 	</section>
-	<section class="page page--reg-runner" style="display: none">
+	<section class="page page--reg-runner" id="page_reg_runner" style="display: none">
 		<h2>Регистрация бегуна</h2>
 		<p>Пожалуйста заполните всю информацию, чтобы зарегистрироваться в качестве бегуна</p>
 		<form method="post">
@@ -133,7 +134,7 @@
 			</fieldset>
 		</form>
 	</section>
-	<section class="page page--about-marathon-skills about-marathon" style="display: none">
+	<section class="page page--about-marathon about-marathon" id="page_about_marathon" style="display: none">
 		<h2>Информация о Marathon Skills 2018</h2>
 		<article class="about-marathon__map-gallery">
 			<a>Карта марафона <span>(Нажмите чтобы открыть интерактивную карту)</span></a>
@@ -153,7 +154,7 @@
 				время, расстояние, рекордные времена, достопримечательности и т.д.</p>
 		</article>
 	</section>
-	<section class="page page--how-long" style="display: none">
+	<section class="page page--how-long" id="page_how_long" style="display: none">
 		<h2>Насколько долгий марафон</h2>
 		<h3>Имя выбранного пункта</h3>
 		<figure>
@@ -183,5 +184,50 @@
 <footer>
 	<p>18 дней 8 часов и 17 минут до старта марафона!</p>
 </footer>
+
+<script>
+	window.$ = window.jQuery = require("jquery");
+</script>
+
+<script>
+	let pageIndex = document.getElementById("page_index"),
+		pageSponsor = document.getElementById("page_sponsor"),
+		pageRunner = document.getElementById("page_runner"),
+		pageInfo = document.getElementById("page_info"),
+		pageLogin = document.getElementById("page_login");
+
+	let btnBack = document.getElementById("btn_back"),
+		btnRunner = document.getElementById("btn_runner"),
+		btnInfo = document.getElementById("btn_info"),
+		btnSponsor = document.getElementById("btn_sponsor");
+	
+	function switchPages() {
+		if (pageIndex.style.display !== "none") {
+			btnBack.style.display = "none";
+		}
+
+		if (pageSponsor.style.display === "block") {
+			btnBack.style.display = "block";
+		}
+	}
+
+	btnSponsor.addEventListener("click", evt => {
+		pageIndex.style.display = "none";
+		pageSponsor.style.display = "block";
+	});
+
+	btnRunner.addEventListener("click", evt => {
+		pageIndex.style.display = "none";
+		pageRunner.style.display = "block";
+	});
+
+	btnInfo.addEventListener("click", evt => {
+		pageIndex.style.display = "none";
+		pageInfo.style.display = "block";
+	});
+
+	switchPages();
+</script>
+
 </body>
 </html>
