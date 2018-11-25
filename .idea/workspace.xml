@@ -4,6 +4,244 @@
     <list default="true" id="898ef7ce-4a2b-4b5d-91ca-7bb044390fd2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/electron" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/electron" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/electron-download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/electron-download.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/electron.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/electron.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rimraf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rimraf.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/balanced-match/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/balanced-match/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/balanced-match/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/balanced-match/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/balanced-match/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/brace-expansion/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/brace-expansion/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/brace-expansion/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/brace-expansion/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/concat-map/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/concat-map/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/concat-map/README.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/concat-map/example/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/concat-map/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/concat-map/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/concat-map/test/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-download/build/cli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-download/build/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-download/collaborators.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-download/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-download/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/appveyor.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/cli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/LICENSES.chromium.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/blink_image_resources_200_percent.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/content_resources_200_percent.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/content_shell.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/d3dcompiler_47.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/electron.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/ffmpeg.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/icudtl.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/libEGL.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/libGLESv2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/am.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/ar.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/bg.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/bn.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/ca.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/cs.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/da.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/de.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/el.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/en-GB.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/en-US.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/es-419.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/es.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/et.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/fa.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/fake-bidi.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/fi.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/fil.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/fr.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/gu.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/he.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/hi.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/hr.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/hu.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/id.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/it.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/ja.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/kn.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/ko.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/lt.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/lv.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/ml.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/mr.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/ms.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/nb.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/nl.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/pl.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/pt-BR.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/pt-PT.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/ro.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/ru.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/sk.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/sl.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/sr.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/sv.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/sw.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/ta.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/te.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/th.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/tr.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/uk.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/vi.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/zh-CN.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/locales/zh-TW.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/natives_blob.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/node.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/resources/default_app.asar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/resources/electron.asar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/snapshot_blob.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/ui_resources_200_percent.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/views_resources_200_percent.pak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/dist/xinput1_3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/install.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/issue_template.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/path.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-prebuilt/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/auto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/dist/es6-promise.auto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/dist/es6-promise.auto.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/dist/es6-promise.auto.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/dist/es6-promise.auto.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/dist/es6-promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/dist/es6-promise.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/dist/es6-promise.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/dist/es6-promise.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/es6-promise.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/lib/es6-promise.auto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/lib/es6-promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/lib/es6-promise/-internal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/lib/es6-promise/asap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/lib/es6-promise/enumerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/lib/es6-promise/polyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/lib/es6-promise/promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/lib/es6-promise/promise/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/lib/es6-promise/promise/race.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/lib/es6-promise/promise/reject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/lib/es6-promise/promise/resolve.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/lib/es6-promise/then.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/lib/es6-promise/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/copy-sync/copy-file-sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/copy-sync/copy-sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/copy-sync/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/copy/copy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/copy/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/copy/ncp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/empty/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/file.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/link.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/symlink-paths.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/symlink-type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/symlink.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/json/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/json/jsonfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/json/output-json-sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/json/output-json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/mkdirs-sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/mkdirs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/win32.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/move/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/output/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/remove/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/util/assign.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/util/utimes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/walk/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs.realpath/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs.realpath/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs.realpath/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs.realpath/old.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs.realpath/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/glob/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/glob/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/glob/changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/glob/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/glob/glob.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/glob/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/glob/sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/home-path/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/home-path/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/home-path/README.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/home-path/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/home-path/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/home-path/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/home-path/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inflight/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inflight/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inflight/inflight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inflight/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonfile/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonfile/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonfile/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonfile/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonfile/appveyor.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonfile/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonfile/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/klaw/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/klaw/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/klaw/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/klaw/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/klaw/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/klaw/src/assign.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/klaw/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/minimatch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/once/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/once/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/once/once.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/once/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-is-absolute/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-is-absolute/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-is-absolute/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-is-absolute/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rimraf/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rimraf/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rimraf/bin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rimraf/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rimraf/rimraf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sumchecker/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sumchecker/NEWS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sumchecker/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sumchecker/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sumchecker/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wrappy/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wrappy/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wrappy/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wrappy/wrappy.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
@@ -21,43 +259,51 @@
     <session id="1734549880">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
+          <entry key="gitignore" value="1" />
           <entry key="html" value="1" />
-          <entry key="js" value="1" />
-          <entry key="json" value="2" />
+          <entry key="js" value="4" />
+          <entry key="json" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
           <entry key="HTML" value="1" />
-          <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="1" />
+          <entry key="JSON" value="6" />
+          <entry key="JavaScript" value="4" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="88" />
-          <entry key="html" value="3496" />
-          <entry key="js" value="3" />
-          <entry key="json" value="36" />
+          <entry key="css" value="233" />
+          <entry key="gitignore" value="1" />
+          <entry key="html" value="3742" />
+          <entry key="js" value="530" />
+          <entry key="json" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="88" />
-          <entry key="HTML" value="3496" />
-          <entry key="JSON" value="36" />
-          <entry key="JavaScript" value="3" />
+          <entry key="CSS" value="233" />
+          <entry key="HTML" value="3742" />
+          <entry key="JSON" value="37" />
+          <entry key="JavaScript" value="530" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -68,21 +314,22 @@
     <splitter split-orientation="horizontal" split-proportion="0.48379204">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="25" selection-start-column="25" selection-end-column="25" />
+                <state relative-caret-position="115">
+                  <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="299">
-                  <caret line="220" column="36" lean-forward="true" selection-start-line="220" selection-start-column="36" selection-end-line="220" selection-end-column="36" />
+                <state relative-caret-position="264">
+                  <caret line="192" column="33" lean-forward="true" selection-start-line="192" selection-start-column="33" selection-end-line="192" selection-end-column="33" />
                   <folding>
+                    <element signature="n#style#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -102,33 +349,24 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/package.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="299">
-                  <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/styles/main.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="276">
-                  <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="184">
-                  <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+                <state relative-caret-position="345">
+                  <caret line="99" column="23" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="163">
+                  <caret line="41" column="37" lean-forward="true" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
@@ -140,9 +378,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -152,10 +390,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/depend.js" />
         <option value="$PROJECT_DIR$/main.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/styles/main.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/indexx.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -208,6 +450,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -234,17 +477,25 @@
       <workItem from="1541354877267" duration="1890000" />
       <workItem from="1541402551960" duration="8816000" />
       <workItem from="1541427011945" duration="10845000" />
+      <workItem from="1541482952922" duration="599000" />
+      <workItem from="1543048466094" duration="20000" />
+      <workItem from="1543048537674" duration="94000" />
+      <workItem from="1543048656705" duration="603000" />
+      <workItem from="1543091024129" duration="370000" />
+      <workItem from="1543091424790" duration="599000" />
+      <workItem from="1543105518214" duration="4429000" />
+      <workItem from="1543111841385" duration="2342000" />
+      <workItem from="1543114686146" duration="955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21551000" />
+    <option name="totallyTimeSpent" value="31562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10590095" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10590095" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -256,7 +507,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.34361234" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.34251103" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -270,35 +521,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
+    <entry file="file://$PROJECT_DIR$/depend.js" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="23">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="220" column="36" lean-forward="true" selection-start-line="220" selection-start-column="36" selection-end-line="220" selection-end-column="36" />
+        <state relative-caret-position="264">
+          <caret line="192" column="33" lean-forward="true" selection-start-line="192" selection-start-column="33" selection-end-line="192" selection-end-column="33" />
           <folding>
+            <element signature="n#style#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -317,5 +553,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="41" column="37" lean-forward="true" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="99" column="23" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -22,6 +22,12 @@ footer {
 	color: #c4dfe6;
 }
 
+.inner-content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
 .app-title {
 	margin-top: 0;
 	padding-top: 10px;
@@ -88,4 +94,31 @@ footer {
 	bottom: 10vh;
 	right: 2vw;
 	padding: 8px 20px;
+}
+
+.btn--add-new {
+	margin-bottom: 20px;
+}
+
+.table-charity {
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+.table-charity td {
+	border: 1px solid #404040;
+	color: #404040;
+}
+
+.table-charity thead td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	background-color: #4682B4;
+	font-size: 18px;
+}
+
+.table-charity thead td:first-child,
+.table-charity thead td:last-child {
+	text-align: center;
 }

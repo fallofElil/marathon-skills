@@ -4,10 +4,12 @@
   "description": "Simple Electron app for interaction with MySQL",
   "main": "main.js",
   "dependencies": {
-    "electron-prebuilt": "^1.4.13",
-    "jquery": "^3.3.1"
+    "jquery": "^3.3.1",
+    "mysql": "^2.16.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "electron": "^3.0.10"
+  },
   "scripts": {
     "start": "electron main.js"
   },
