@@ -22,6 +22,10 @@ footer {
 	color: #c4dfe6;
 }
 
+h1, h2, h3, h4 {
+	text-align: center;
+}
+
 .inner-content {
 	display: flex;
 	flex-direction: column;
@@ -47,6 +51,19 @@ footer {
 	transform: translate(-50%, 0%);
 }
 
+.btn-wrapper--more-info {
+	top: 35vh;
+	width: 70%;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.btn-wrapper--more-info .btn {
+	width: 250px;
+	height: 80px;
+	margin-bottom: 5vh;
+}
+
 .btn {
 	border: 1px solid #07575b;
 	border-radius: 10px;
@@ -59,6 +76,14 @@ footer {
 	background-color: #07575b;
 	color: #c4dfe6;
 	cursor: pointer;
+}
+
+.page {
+	display: none;
+}
+
+.page:first-child {
+	display: block;
 }
 
 .btn--active {
