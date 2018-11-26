@@ -32,6 +32,10 @@ h1, h2, h3, h4 {
 	align-items: flex-start;
 }
 
+.inner-content * {
+	margin: 0 auto;
+}
+
 .app-title {
 	margin-top: 0;
 	padding-top: 10px;
@@ -39,6 +43,15 @@ h1, h2, h3, h4 {
 }
 .header-info {
 	padding-bottom: 15px;
+}
+
+.section-title {
+	margin-bottom: 20px;
+}
+
+.top-description {
+	margin-bottom: 20px;
+	text-align: center;
 }
 
 .btn-wrapper {
