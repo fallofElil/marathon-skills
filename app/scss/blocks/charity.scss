@@ -1,0 +1,29 @@
+.charity {
+  padding-left: 0;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  list-style: none;
+}
+
+.charity__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+.charity__image {
+  padding: 46px 32px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background-color: yellowgreen;
+}
+
+.charity__org-name {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.charity__org-descr {
+  text-align: left;
+}
