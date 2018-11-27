@@ -8,7 +8,12 @@
     "mysql": "^2.16.0"
   },
   "devDependencies": {
-    "electron": "^3.0.10"
+    "del": "^3.0.0",
+    "electron": "^3.0.10",
+    "gulp": "4.0.x",
+    "gulp-csso": "^3.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2"
   },
   "scripts": {
     "start": "electron main.js"
