@@ -13,10 +13,12 @@
     "gulp": "4.0.x",
     "gulp-csso": "^3.0.1",
     "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2"
   },
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron main.js",
+	"build": "gulp build"
   },
   "repository": {
     "type": "git",

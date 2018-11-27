@@ -3,17 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Marathon Skills 2018</title>
-	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<link rel="stylesheet" type="text/css" href="app/css/style.min.css">
 </head>
 <body>
-<header>
-	<h1 class="app-title">marathon skills 2018</h1>
+<header class="app-header">
+	<h1 class="title--app">marathon skills 2018</h1>
 	<p class="header-info">Москва, Россия<br>среда 21 октября 2018</p>
 	<button class="btn btn--back" id="btn_back" type="button">Назад</button>
 </header>
 <main>
 	<section class="page page--index" id="page_index">
-		<div class="btn-wrapper btn-wrapper--index">
+		<div class="btn__wrapper btn__wrapper--index">
 			<button class="btn btn--app btn--index" id="btn_runner">Я хочу стать бегуном</button>
 			<button class="btn btn--app btn--index" id="btn_sponsor">Я хочу стать спонсором</button>
 			<button class="btn btn--app btn--index" id="btn_info">Я хочу узнать больше о событии</button>
@@ -44,7 +44,7 @@
 		<p>Пожалуйста выберите бегуна, которого вы хотели бы спонсировать и сумму, котороую вы хотели бы спонсировать. Спасибо за вашу поддержку бегунов и их благотворительных учреждений</p>
 		<form method="post">
 			<fieldset class="field field--sponsor">
-				<legend class="field-title">Информация о спонсоре</legend>
+				<legend class="title--field">Информация о спонсоре</legend>
 				<label class="label label--txt" for="txt_fullName">Ваше имя:</label>
 				<input class="input input--txt" type="text" id="txt_fullName" name="sponsor_full_name" placeholder="Ваше имя">
 				<label class="label label--txt" for="select_runner">Бегун:</label>
@@ -64,11 +64,11 @@
 				<input class="input input--txt" type="number" id="txt_cvc" name="cvc" placeholder="123">
 			</fieldset>
 			<fieldset class="field field--fund">
-				<legend class="field-title">Благотворительность</legend>
+				<legend class="title--field">Благотворительность</legend>
 				<p>Фонд Кошек</p>
 			</fieldset>
 			<fieldset class="field field--donation">
-				<legend class="field-title">Сумма пожерствования</legend>
+				<legend class="title--field">Сумма пожерствования</legend>
 				<label class="label label--donat" for="donat_counter" id="donation_amount">$</label>
 				<input class="input input--txt input--counter" type="number" id="donat_counter">
 			</fieldset>
@@ -80,17 +80,17 @@
 	</section>
 	<section class="page page--more-info" id="page_more_info">
 		<h2>Подробная информация</h2>
-		<div class="btn-wrapper btn-wrapper--more-info">
-			<button class="btn btn--app">Marathon Skills 2018</button>
-			<button class="btn btn--app">Насколько долгий марафон</button>
-			<button class="btn btn--app">Предыдущие результаты</button>
-			<button class="btn btn--app" id="btn_charity_list">Список благотворительных организаций</button>
+		<div class="btn__wrapper btn__wrapper--more-info">
+			<button class="btn btn--more-info">Marathon Skills 2018</button>
+			<button class="btn btn--more-info">Насколько долгий марафон</button>
+			<button class="btn btn--more-info">Предыдущие результаты</button>
+			<button class="btn btn--more-info" id="btn_charity_list">Список благотворительных организаций</button>
 		</div>
 	</section>
 	<section class="page page--charity-list" id="page_charity_list">
 		<div class="inner-content">
-			<h2 class="section-title">Список благотворительных организаций</h2>
-			<p class="top-description">Это - список всех благтворительных учреждений, которые поддерживаются
+			<h2 class="title--section">Список благотворительных организаций</h2>
+			<p class="description description--top">Это - список всех благтворительных учреждений, которые поддерживаются
 			в Marathon Skills 2018. Спасибо за помощь вы, поддерживаете их, спонсируя бегунов!</p>
 			<ul class="charity" id="charity_list">
 
@@ -98,7 +98,7 @@
 		</div>
 	</section>
 	<section class="page page--runner-select" id="page_runner_select">
-		<div class="btn-wrapper btn-wrapper--run-select">
+		<div class="btn__wrapper btn__wrapper--run-select">
 			<button class="btn btn--app btn--run-select">Я участвовал ранее</button>
 			<button class="btn btn--app btn--run-select">Я новый участник</button>
 		</div>
@@ -210,7 +210,7 @@
 		</div>
 	</section>
 </main>
-<footer>
+<footer class="app-footer">
 	<p>18 дней 8 часов и 17 минут до старта марафона!</p>
 </footer>
 

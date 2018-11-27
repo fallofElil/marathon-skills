@@ -1,0 +1,22 @@
+.table-charity {
+  margin: 0 auto;
+  border-collapse: collapse;
+
+  td {
+	border: 1px solid #404040;
+	color: #404040;
+  }
+
+  thead td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	background-color: #4682B4;
+	font-size: 18px;
+  }
+
+  thead td:first-child,
+  thead td:last-child {
+	text-align: center;
+  }
+}
