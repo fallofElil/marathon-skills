@@ -1,0 +1,28 @@
+.runner-statistics, th, td {
+  border: 2px solid #293d3d;
+  border-collapse: collapse;
+}
+
+.runner-statistics {
+  width: 90vw;
+  margin: 0 auto;
+
+  tr {
+	&:nth-child(even) {
+	  background-color: #B0C4DE;
+	}
+  }
+
+  td {
+	padding: 3px;
+	text-align: center;
+  }
+
+  thead {
+	th {
+	  padding: 5px;
+	  background-color: #4682B4;
+	  text-align: left;
+	}
+  }
+}

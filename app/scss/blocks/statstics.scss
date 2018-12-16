@@ -1,0 +1,11 @@
+.statistics {
+  width: 90vw;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-bottom: 25px;
+
+  span {
+	font-weight: bold;
+  }
+}

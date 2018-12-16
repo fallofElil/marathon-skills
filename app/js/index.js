@@ -5,9 +5,11 @@ var pageIndex = document.getElementById("page_index"),
 	pageCharityList = $("#page_charity_list"),
 	pagePrevRes = $("#page_prev_results"),
 	pageMarathon2018 = $("#page_marathon"),
-    pageLogin = document.getElementById("page_login");
+    pageLogin = $("#page_login");
 
 var btnRunner = document.getElementById("btn_runner"),
+	btnLogin = $("#btn_login"),
+	btnSbmtLogin = $("#btn_sbmt_login"),
     btnInfo = $("#btn_info"),
 	btnCharityList = $("#btn_charity_list"),
     btnSponsor = $("#btn_sponsor"),
@@ -21,6 +23,11 @@ $(function () {
 	$(".btn--index").on("click", function () {
 		$("#btn_back").show();
 		$(".header-info").hide();
+	});
+
+	btnLogin.on("click", function () {
+		pages.hide();
+		pageLogin.show();
 	});
 
 	$("#btn_back").on("click", function () {

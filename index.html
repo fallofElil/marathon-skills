@@ -18,18 +18,26 @@
 			<button class="btn btn--app btn--index" id="btn_sponsor">Я хочу стать спонсором</button>
 			<button class="btn btn--app btn--index" id="btn_info">Я хочу узнать больше о событии</button>
 		</div>
-		<button class="btn btn--login login">Login</button>
+		<button class="btn btn--login login" id="btn_login">Login</button>
 	</section>
 	<section class="page page--login" id="page_login">
 		<h2>Форма авторизации</h2>
-		<p>Пожалуйста, авторизуйтесь в системе, используя ваш адрес электронной почты и пароль.</p>
-		<form method="post">
-			<label class="label" for="input_mail">Email:</label>
-			<input class="input input--email" type="email" id="input_mail">
-			<label class="label" for="input_password">Password:</label>
-			<input class="input inout--password" type="password" id="input_password">
-			<button class="btn btn--login" id="btn_login" type="submit">Login</button>
-			<button class="btn btn--cancel" id="btn" type="reset">Cancel</button>
+		<p class="description description--login">Пожалуйста, авторизуйтесь в системе, используя ваш адрес электронной почты и пароль.</p>
+		<form class="form form--login" method="post">
+			<div class="form_el_wrapper">
+				<div>
+					<label class="label" for="input_mail">Email:</label>
+					<input class="input input--email" type="email" id="input_mail">
+				</div>
+				<div>
+					<label class="label" for="input_password">Password:</label>
+					<input class="input inout--password" type="password" id="input_password">
+				</div>
+				<div>
+					<button class="btn btn--sbmt-login" id="btn_sbmt_login" type="submit">Login</button>
+					<button class="btn btn--cancel" id="btn" type="reset">Cancel</button>
+				</div>
+			</div>
 		</form>
 	</section>
 	<section class="page page--runner" id="page_runner">
@@ -264,43 +272,53 @@
 		<div class="inner-content">
 			<h2>Результаты предыдущих гонок</h2>
 			<form class="form form--prev-result" id="form_prev_result">
-				<label class="label label--result" for="select_marathon">марафон:</label>
-				<select class="select select--marathon" id="select_marathon">
-
-				</select>
-				<label class="label label--result" for="select_distance">Дистанция</label>
-				<select class="select select--distance" id="select_distance">
-
-				</select>
-				<label class="label label--gender" for="select_gender">Пол:</label>
-				<select class="select select--gender" id="select_gender">
-				</select>
-				<label class="label label--age-range" for="select_age">Категория</label>
-				<select class="select select--distance" id="select_age">
-					<option>18-29</option>
-					<option>30-39</option>
-					<option>40-55</option>
-					<option>56-70</option>
-					<option>более 70</option>
-				</select>
-				<button class="btn" type="submit">Поиск</button>
-				<section class="statistics">
-					<p class="statistics_param">Всего бегунов: <span id="total_runners"></span></p>
-					<p class="statistics_param">Всего бегунов финишировало: <span id="total_runners_finish"></span></p>
-					<p class="statistics_param">среднее время: <span id="average_time"></span></p>
-				</section>
-				<table class="runner-statistics" id="runner_statistics">
-					<thead>
-					<tr>
-						<th>Место</th>
-						<th>Время</th>
-						<th>Имя бегуна</th>
-						<th>Страна</th>
-					</tr>
-					</thead>
-					<tbody></tbody>
-				</table>
+				<div class="form_prev-res-cl">
+					<div>
+						<label class="label label--result" for="select_marathon">марафон:</label>
+						<select class="select select--marathon" id="select_marathon">
+						</select>
+					</div>
+					<div>
+						<label class="label label--result" for="select_distance">Дистанция</label>
+						<select class="select select--distance" id="select_distance">
+						</select>
+					</div>
+				</div>
+				<div class="form_prev-res-cl">
+					<div>
+						<label class="label label--gender" for="select_gender">Пол:</label>
+						<select class="select select--gender" id="select_gender">
+						</select>
+					</div>
+					<div>
+						<label class="label label--age-range" for="select_age">Категория</label>
+						<select class="select select--distance" id="select_age">
+							<option>18-29</option>
+							<option>30-39</option>
+							<option>40-55</option>
+							<option>56-70</option>
+							<option>более 70</option>
+						</select>
+					</div>
+				</div>
+				<button class="btn btn--submit" type="submit">Поиск</button>
 			</form>
+			<section class="statistics">
+				<p class="statistics_param">Всего бегунов: <span id="total_runners"></span></p>
+				<p class="statistics_param">Всего бегунов финишировало: <span id="total_runners_finish"></span></p>
+				<p class="statistics_param">среднее время: <span id="average_time"></span></p>
+			</section>
+			<table class="runner-statistics" id="runner_statistics">
+				<thead>
+				<tr>
+					<th>Место</th>
+					<th>Время</th>
+					<th>Имя бегуна</th>
+					<th>Страна</th>
+				</tr>
+				</thead>
+				<tbody></tbody>
+			</table>
 		</div>
 	</section>
 </main>

@@ -1,0 +1,46 @@
+.form {
+  margin: 0 auto;
+
+  &--prev-result {
+	width: 90vw;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 15px;
+	margin-bottom: 25px;
+  }
+}
+
+.form_el_wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  div {
+	margin-left: auto;
+	margin-right: 40vw;
+	margin-bottom: 15px;
+  }
+}
+
+.form_prev-res-cl {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+
+  div {
+	margin-right: auto;
+	margin-bottom: 20px;
+  }
+
+  &:last-of-type {
+	margin-right: 0;
+	margin-left: auto;
+
+	div {
+	  margin-right: 0;
+	  margin-left: auto;
+	}
+  }
+}
