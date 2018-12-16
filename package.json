@@ -18,7 +18,8 @@
   },
   "scripts": {
     "start": "electron main.js",
-	"build": "gulp build"
+    "build": "gulp build",
+	"watch": "gulp watch"
   },
   "repository": {
     "type": "git",

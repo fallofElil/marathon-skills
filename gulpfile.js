@@ -19,4 +19,8 @@ gulp.task('clean', () => {
 	return del('app/css');
 });
 
+gulp.task('watch', () => {
+	gulp.watch("app/scss/**/*.{scss,sass}", gulp.series("css"))
+});
+
 gulp.task('build', gulp.series('clean', 'css'));

@@ -3,6 +3,7 @@ var pageIndex = document.getElementById("page_index"),
     pageRunner = document.getElementById("page_runner"),
     pageInfo = $("#page_more_info"),
 	pageCharityList = $("#page_charity_list"),
+	pagePrevRes = $("#page_prev_results"),
 	pageMarathon2018 = $("#page_marathon"),
     pageLogin = document.getElementById("page_login");
 
@@ -10,6 +11,7 @@ var btnRunner = document.getElementById("btn_runner"),
     btnInfo = $("#btn_info"),
 	btnCharityList = $("#btn_charity_list"),
     btnSponsor = $("#btn_sponsor"),
+	btnPrevRes = $("#btn_prev_results");
 	btnMarathon2018 = $("#btn_marathon_2018");
 
 var main = $("main");
@@ -36,13 +38,18 @@ $(function () {
 		pageCharityList.show();
 	});
 
+	btnPrevRes.on("click", function () {
+		pages.hide();
+		pagePrevRes.show();
+	});
+
 	btnMarathon2018.on("click", function () {
 		pages.hide();
 		pageMarathon2018.show();
 	})
 });
 
-btnSponsor.addEventListener("click", evt => {
+btnSponsor.on("click", function () {
     pageIndex.style.display = "none";
     pageSponsor.style.display = "block";
 });

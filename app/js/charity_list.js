@@ -6,8 +6,10 @@ $(function () {
 
 		rows.forEach(function (row) {
 			html += '<li class="charity__item">';
+			html += '<div class="charity__image-wrapper">';
 			html += '<div class="charity__image">';
 			html += row.CharityLogo;
+			html += '</div>';
 			html += '</div>';
 			html += '<div class="charity__org">';
 			html += '<h3 class="charity__org-name">';
@@ -25,7 +27,7 @@ $(function () {
 
 	function getOrganizations(callback) {
 		var mysql = require('mysql');
-
+		console.time();
 		var connection = mysql.createConnection({
 			host		: 'efrafa.ddns.net',
 			user		: 'marathon_user',
@@ -53,5 +55,6 @@ $(function () {
 			console.log("Query successfully executed");
 		});
 		connection.end(function () {});
+		console.timeEnd();
 	}
 });

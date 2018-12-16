@@ -12,11 +12,20 @@
   margin-bottom: 25px;
 }
 
-.charity__image {
-  padding: 46px 32px;
+.charity__image-wrapper {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 140px;
+  height: 140px;
   margin-right: 20px;
-  border-radius: 50%;
   background-color: yellowgreen;
+  border-radius: 50%;
+}
+
+.charity__image {
+  display: inline-flex;
+  margin-top: 45px;
+  text-align: center;
 }
 
 .charity__org-name {

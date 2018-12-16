@@ -83,7 +83,7 @@
 		<div class="btn__wrapper btn__wrapper--more-info">
 			<button class="btn btn--more-info" id="btn_marathon_2018">Marathon Skills 2018</button>
 			<button class="btn btn--more-info">Насколько долгий марафон</button>
-			<button class="btn btn--more-info">Предыдущие результаты</button>
+			<button class="btn btn--more-info" id="btn_prev_results">Предыдущие результаты</button>
 			<button class="btn btn--more-info" id="btn_charity_list">Список благотворительных организаций</button>
 		</div>
 	</section>
@@ -260,6 +260,49 @@
 			</table>
 		</div>
 	</section>
+	<section class="page page--previous-results" id="page_prev_results">
+		<div class="inner-content">
+			<h2>Результаты предыдущих гонок</h2>
+			<form class="form form--prev-result" id="form_prev_result">
+				<label class="label label--result" for="select_marathon">марафон:</label>
+				<select class="select select--marathon" id="select_marathon">
+
+				</select>
+				<label class="label label--result" for="select_distance">Дистанция</label>
+				<select class="select select--distance" id="select_distance">
+
+				</select>
+				<label class="label label--gender" for="select_gender">Пол:</label>
+				<select class="select select--gender" id="select_gender">
+				</select>
+				<label class="label label--age-range" for="select_age">Категория</label>
+				<select class="select select--distance" id="select_age">
+					<option>18-29</option>
+					<option>30-39</option>
+					<option>40-55</option>
+					<option>56-70</option>
+					<option>более 70</option>
+				</select>
+				<button class="btn" type="submit">Поиск</button>
+				<section class="statistics">
+					<p class="statistics_param">Всего бегунов: <span id="total_runners"></span></p>
+					<p class="statistics_param">Всего бегунов финишировало: <span id="total_runners_finish"></span></p>
+					<p class="statistics_param">среднее время: <span id="average_time"></span></p>
+				</section>
+				<table class="runner-statistics" id="runner_statistics">
+					<thead>
+					<tr>
+						<th>Место</th>
+						<th>Время</th>
+						<th>Имя бегуна</th>
+						<th>Страна</th>
+					</tr>
+					</thead>
+					<tbody></tbody>
+				</table>
+			</form>
+		</div>
+	</section>
 </main>
 <footer class="app-footer">
 	<p>18 дней 8 часов и 17 минут до старта марафона!</p>
@@ -268,6 +311,7 @@
 	window.$ = window.jQuery = require("jquery");
 	require('./app/js/index.js');
 	require('./app/js/charity_list.js');
+	require('./app/js/prev_results.js');
 </script>
 </body>
 </html>
