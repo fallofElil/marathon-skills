@@ -40,6 +40,38 @@
 			</div>
 		</form>
 	</section>
+	<section class="page page--runner-menu" id="page_runner_menu">
+		<div class="inner-content">
+			<h2>Меню бегуна</h2>
+			<div class="btn__wrapper btn__wrapper--runner-menu">
+				<button class="btn btn--app btn--runner-menu" id="btn_reg_marathon">Регистрация мараафона</button>
+				<button class="btn btn--app btn--runner-menu" id="btn_my_results">Мои результаты</button>
+				<button class="btn btn--app btn--runner-menu" id="btn_edit_profile">Редактирование профиля</button>
+				<button class="btn btn--app btn--runner-menu" id="btn_my_sponsor">Мой спонсор</button>
+				<button class="btn btn--app btn--runner-menu" id="btn_contacts">Контакты</button>
+			</div>
+		</div>
+	</section>
+	<section class="page page--runner-menu" id="page_coordinator_menu">
+		<div class="inner-content">
+			<h2>Меню бегуна</h2>
+			<div class="btn__wrapper btn__wrapper--runner-menu">
+				<button class="btn btn--app btn--coord-menu" id="btn_runners">Бегуны</button>
+				<button class="btn btn--app btn--coord-menu" id="btn_sponsors">Спонсоры</button>
+			</div>
+		</div>
+	</section>
+	<section class="page page--admin-menu" id="page_admin_menu">
+		<div class="inner-content">
+			<h2>Меню бегуна</h2>
+			<div class="btn__wrapper btn__wrapper--runner-menu">
+				<button class="btn btn--app btn--admin-menu" id="btn_users">Пользователи</button>
+				<button class="btn btn--app btn--admin-menu" id="btn_volunteers">Волонтёры</button>
+				<button class="btn btn--app btn--admin-menu" id="btn_charities">Благотворительные организации</button>
+				<button class="btn btn--app btn--admin-menu" id="btn_inventory">Инвентарь</button>
+			</div>
+		</div>
+	</section>
 	<section class="page page--runner" id="page_runner">
 		<div class="btn-wrapper">
 			<button class="btn btn--app login">Я участвовал ранее</button>
@@ -328,6 +360,7 @@
 <script>
 	window.$ = window.jQuery = require("jquery");
 	require('./app/js/index.js');
+	require('./app/js/login.js');
 	require('./app/js/charity_list.js');
 	require('./app/js/prev_results.js');
 </script>
